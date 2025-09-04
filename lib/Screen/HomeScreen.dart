@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends   StatelessWidget {
   const HomeScreen({super.key});
 
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    throw UnimplementedError();
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+
+      ),
+    );
+
   }
-
-
 
 }
