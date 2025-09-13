@@ -95,7 +95,12 @@ class AppTextstyle {
     fontWeight: FontWeight.w600,
 
   );
+  static TextStyle textStyle32whiteW500 = GoogleFonts.josefinSans(
+    fontSize: 32,
+    color: const Color(0xffffffff),
+    fontWeight: FontWeight.w500,
 
+  );
 
 
 
