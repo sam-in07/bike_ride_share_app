@@ -14,4 +14,5 @@ class AppColors {
   static const textField = Color(0xFFF3F2FF);
   static const iconColor = Color(0xFF888888);
 
+
 }
