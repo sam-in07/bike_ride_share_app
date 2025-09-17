@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:ride_share_app/data/app_text.dart';
 import 'package:ride_share_app/data/app_text_style.dart';
-
+import 'package:ride_share_app/widgets/primary_button.dart';
 import 'package:flutter/material.dart';
 
 class NaviScreen extends StatelessWidget {
@@ -64,7 +64,26 @@ class NaviScreen extends StatelessWidget {
                         ),
                       ),
                     ) ,
+                    SizedBox(height: size.height * 0.07),
+                    PrimaryButton(
+                      title: "Next",
+                      height: 50,
+                      width: 350,
+                      radius: 0,
+                      color: Color(0xFF584CF4),
 
+                      textStyle: TextStyle(
+                        color: Color(0xFFE4E2EA),
+                        fontSize: 14,
+                        fontFamily: 'Inter',
+                        fontWeight: FontWeight.w600,
+                        height: 1.43,
+                        letterSpacing: 0.47,
+                      ),
+                      onTap:  (){
+                              
+                      },
+                    ),
                   ],
                 ),
               ),

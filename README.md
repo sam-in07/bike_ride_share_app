@@ -12,5 +12,9 @@ So if the device screen height is, for example, 800 pixels:
 It’s a great way to make your UI spacing responsive and proportional across different screen sizes.
 
 
+### HOw to calculate it :
+
+from design  we got 24 and if design screen is 800 so 24/800 = 0.03
+
 
 
