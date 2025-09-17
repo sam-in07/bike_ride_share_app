@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         title: 'bike-ride-sharing-app',
         // home: HomeScreen() ,
         // home: SplashScreen() ,
-        home: naviscree() ,
+        home: NaviScreen() ,
     );
   }
 }

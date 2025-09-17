@@ -1,16 +1,16 @@
 # ride_share_app
+Ride share APP
 
-A new Flutter project.
+## **SizedBox(height: size.height * 0.03)** :
 
-## Getting Started
+means you’re setting the height to 3% of the device’s screen height.
 
-This project is a starting point for a Flutter application.
+So if the device screen height is, for example, 800 pixels:
 
-A few resources to get you started if this is your first Flutter project:
+**0.03 * 800 = 24 pixels of vertical space.**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+It’s a great way to make your UI spacing responsive and proportional across different screen sizes.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
