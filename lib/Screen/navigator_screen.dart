@@ -4,6 +4,7 @@ import 'package:ride_share_app/data/app_text.dart';
 import 'package:ride_share_app/data/app_text_style.dart';
 import 'package:ride_share_app/widgets/primary_button.dart';
 import 'package:flutter/material.dart';
+import 'Login.dart';
 
 class NaviScreen extends StatelessWidget {
   const NaviScreen({super.key});
@@ -80,9 +81,14 @@ class NaviScreen extends StatelessWidget {
                         height: 1.43,
                         letterSpacing: 0.47,
                       ),
-                      onTap:  (){
-                              
-                      },
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => login()),
+                          );
+
+                        }
+
                     ),
                   ],
                 ),
